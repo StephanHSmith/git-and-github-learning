@@ -1,0 +1,24 @@
+Git Commands
+-----------
+
+These are commands I used, both remotely and on github, to set up a repository and move files. Angle
+backets are NOT used in the actual commands. Double quotes ARE.
+This list is not complete yet
+
+
+Set Up Commands
+----------
+git init  //Initialize repository
+git config --global user.email "<email address>"
+git config --global user.name "<your name>"
+git commit -m "<put commit message>"
+git remote add origin <origin address here>
+git push --set-upstream origin main
+
+
+git status
+git add <file>
+git add -A 
+git pull origin main
+git commit -m "<add your message>"
+git push -u origin main
